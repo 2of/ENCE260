@@ -3,6 +3,7 @@
 
 > Note:
 This version of the game DOES NOT include inter-unit communication.
+This is not the submission version of the game
 
 Walk Around And Eat Food Game!
 Launch via make program, assuming the toolchain exists for UCFK4;
