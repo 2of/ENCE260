@@ -3,7 +3,18 @@
 
 > Note:
 This version of the game DOES NOT include inter-unit communication.
-This is not the submission version of the game
+This is not the submission version of the game.
+
+## I had a bit of a problem tracking down the original code for this when I migrated things over to github, I found this version, it's untested... but it should work to some extent with a ucfunkit!
+
+
+
+
+
+
+
+
+
 
 Walk Around And Eat Food Game!
 Launch via make program, assuming the toolchain exists for UCFK4;
@@ -36,7 +47,7 @@ Touching the enemy player will decerement the score for the player who made the 
 **************
 
 Implementation:
-    The transission over iruart does not work. Likewise the display stutter has been introduced since the demo; this is related to the task scheduler and something that will hopefully be fixed soon.
+    The transmission over iruart does not work. Likewise the display stutter has been introduced since the demo; this is related to the task scheduler and something that will hopefully be fixed soon.
     The IR_UART transmission is done bi directionally; the locations of food updates are encodded by the host (whoever's button pressed first) using the first bit as an identifiier
 
 
